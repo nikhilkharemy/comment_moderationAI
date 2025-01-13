@@ -49,12 +49,12 @@ const App = () => {
 
     try {
       const response = await axios.post(
-        "https://qyjm4rumcvrv3ohbw7erymem5a0glfyh.lambda-url.ap-south-1.on.aws/",
+        "LmabdaAPIURL",
         { prompt: inputText },
         {
           headers: {
-            "x-api-key": "QPALZM1WNXORB",
-            "x-api-secret": "843yre8go4y32frerug48ycrbyfrcbey8",
+            "x-api-key": "Key",
+            "x-api-secret": "Secret",
             "Content-Type": "application/json"
           }
         }
